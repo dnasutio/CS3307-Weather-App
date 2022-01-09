@@ -1,0 +1,7 @@
+.vscode/
+WeatherApp
+Makefile
+*.o
+.qmake.stash
+cache/
+moc_*
