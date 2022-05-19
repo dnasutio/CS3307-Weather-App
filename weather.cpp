@@ -36,7 +36,7 @@ QString Weather::getLocation() { return location; }
 /// @return Location
 /// @author Dylan Nasution
 void Weather::fetchAll() {
-    timeLastUpdated = fetcher->getTimeLastUpdated();
+    timeLastUpdated = fetcher->getLastUpdated();
 
     // for the current time of today
     currTemperature = fetcher->fetchTemperature();
